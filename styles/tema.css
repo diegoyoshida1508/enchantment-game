@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 90vh;
+    background: linear-gradient(#a8daf7, #d0e6ef);
+}
+
+footer {
+    height: 10vh;
+    background-color: rgb(114, 185, 8);
+}
+
+#personagem {
+    height: 150px;
+    width: 50px;
+    position: absolute;
+    bottom: 10vh;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabeca {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: relative;
+}
+
+.rosto {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    right: -5px;
+    top: 25px;
+}
+
+.olho {
+    background-color: rgb(0, 0, 0);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin-bottom: -10px;
+}
+
+
+.corpo {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+
+.mute {
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: violet;
+    color: white;
+    border-radius: 14%;
+    padding: 10px;
+    border: none;
+}
+
+.animar-personagem {
+    animation: movimentar 1s;
+    height: 500px;
+}
+
+@keyframes movimentar {
+    0% {
+        height: 150px;
+    }
+
+    50% {
+        height: 155px;
+    }
+
+    100% {
+        height: 150px;
+    }
+}
