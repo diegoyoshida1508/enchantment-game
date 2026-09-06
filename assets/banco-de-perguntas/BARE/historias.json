@@ -1,0 +1,430 @@
+{
+    "produto":"BARE",
+    "qtd-historias":1,
+    "historias": [
+        {
+            "perguntas": [
+                {
+                    "tipo":"encantamento",
+                    "enunciado":"A cliente Lourdes entrou em contato informando sobre o falecimento de seu marido, desejando realizar a abertura de sinistro. Qual frase seria a ideal para prosseguir nessa situação?",
+                    "alternativas": [
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"'Lourdes, meus sentimentos e espero que a senhora fique bem, estou aqui para te auxiliar!'",
+                            "pontos":300,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Lamento pelo transtorno, vou te auxiliar!'",
+                            "pontos":150,
+                            "complemento":"É uma resposta aceitável, mas carece de personalização e maior conexão emocional."
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"Lourdes, vou verificar em sistema, tudo bem?",
+                            "pontos":150,
+                            "complemento":"É uma resposta aceitável, mas carece de maior conexão emocional e validação de sentimento."
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'Certo, peço por gentileza que confirme seus dados.'",
+                            "pontos":0,
+                            "complemento":"É uma resposta incorreta! Realize sempre a validação emocional e personalização!"
+                        }
+                    ]
+                },
+                {
+                    "tipo":"gestao-de-conflito",
+                    "enunciado":"Lourdes informa que operadores anteriores desligaram sem prestar atendimento adequadamente. Qual a frase mais adequada para proceder?",
+                    "alternativas": [
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'Peço que aguarde mais um momento enquanto preencho as informações em sistema.'",
+                            "pontos":0,
+                            "complemento":"É uma resposta incorreta, pois a frase ignora a insatisfação demonstrada, focando apenas na tratativa técnica."
+                        },
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"'Lourdes, peço desculpas por todo transtorno causado, não se preocupe que vou auxiliar a senhora, tudo bem?'",
+                            "pontos":1000,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Peço desculpas, vou verificar em sistema e já retorno, um momento por gentileza.'",
+                            "pontos":500,
+                            "complemento":"É uma resposta aceitável, porém, o pedido de desculpas é genérico e sem aprofundamento emocional."
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"Lourdes, lamento por isso.",
+                            "pontos":500,
+                            "complemento":"É uma resposta aceitável, mas sem conexão emocional adequada."
+                        }
+                    ]
+                },
+                {
+                    "tipo":"encantamento",
+                    "enunciado":"A cliente informou que está muito triste com a situação após o falecimento do marido, e começa a chorar. Como reconfortar a cliente?",
+                    "alternativas": [
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Lamento pelo marido da senhora, peço que se acalme.'",
+                            "pontos":150,
+                            "complemento":"Não é a melhor resposta, pois apesar de haver acolhimento, dá a impressão de que a cliente está 'exaltada' e precisa se acalmar."
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Não precisa ficar assim, Lourdes, já vou resolver aqui para a senhora.'",
+                            "pontos":150,
+                            "complemento":"É uma resposta aceitável, mas carece de maior conexão emocional e sem parecer minimizar o sentimento da cliente."
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'Peço que aguarde que já irei resolver para a senhora, ok?'",
+                            "pontos":0,
+                            "complemento":"É uma resposta inadequada pois não valida o sentimento, demonstrando impaciência."
+                        },
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"'Lourdes, sinto muito por tudo isso que a senhora está passando, estarei empenhada em apoiar a senhora nesse momento difícil, pode contar comigo!'",
+                            "pontos":300,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        }
+                    ]
+                },
+                {
+                    "tipo":"personalizacao",
+                    "enunciado":"Qual a frase mais adequada para personalizar a experiência de atendimento?",
+                    "alternativas": [
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"'Senhora Lourdes, obrigado por aguardar! Identifiquei as informações, podemos seguir com a abertura do sinistro.'",
+                            "pontos":300,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'Isso, agora vou pedir algumas informações para seguirmos.'",
+                            "pontos":0,
+                            "complemento":"Não é correta, pois não chama o cliente pelo nome e segue de forma genérica."
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Senhora, obrigado por aguardar! Vamos seguir com a abertura do sinistro.'",
+                            "pontos":150,
+                            "complemento":"É uma resposta aceitável, porém, devemos sempre lembrar de chamar os clientes por seus nomes."
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"Vou seguir com a abertura para a senhora, tudo bem?",
+                            "pontos":150,
+                            "complemento":"É uma resposta aceitável, porém, devemos sempre lembrar de chamar os clientes por seus nomes."
+                        }
+                    ]
+                },
+                {
+                    "tipo":"informacao-completa-e-correta-sem-prejuizo",
+                    "enunciado":"Como realizar o PID corretamente antes de seguir com a tratativa?",
+                    "alternativas":[
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'A senhora poderia me informar por gentileza os dados A, B, C'",
+                            "pontos":0,
+                            "complemento":"Incorreto, pois o dado D não foi questionado."
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'A senhora poderia me informar por gentileza os dados A, B'",
+                            "pontos":0,
+                            "complemento":"Incorreto, pois os dados C e D não foram questionados."
+                        },
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"'A senhora poderia informar por gentileza os dados A, B, C e D?'",
+                            "pontos":1500,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'Seu dado A seria 123.456.187? Poderia confirmar por gentileza?'",
+                            "pontos":0,
+                            "complemento":"Incorreto, pois não se pode verbalizar os dados em sistema para que o cliente confirme."
+                        }
+                    ]
+                },
+                {
+                    "tipo":"presenca-continua",
+                    "enunciado":"Será necessário mutar o microfone para navegar em sistema. Como proceder corretamente?",
+                    "alternativas":[
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"'Senhora Lourdes, peço que aguarde um momento enquanto busco em sistema, o microfone vai ficar no mudo mas se precisar, pode me chamar, tudo bem?'",
+                            "pontos":300,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Lourdes, peço que aguarde um momento enquanto verifico as informações em sistema.'",
+                            "pontos":150,
+                            "complemento":"É uma resposta aceitável, porém, não informou que permaneceria à disposição mesmo durante tempo de pausa."
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Lourdes, peço que aguarde um momento por gentileza, tudo bem?'",
+                            "pontos":150,
+                            "complemento":"É uma resposta incompleta, pois não explica o motivo do tempo em silêncio e não se coloca à disposição."
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"Permanecer em silêncio sem posicionar a cliente.",
+                            "pontos":0,
+                            "complemento":"É uma ação incorreta, pois cliente se sentirá abandonada, achando que houve queda na ligação ou encerramento indevido."
+                        }
+                    ]
+                },
+                {
+                    "tipo":"cumprimento-do-fluxo-de-atendimento",
+                    "enunciado":"Para tratativa de abertura de sinistro, qual a ação mais correta a ser realizada dentre as opções?",
+                    "alternativas": [
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"Pedir os dados A e B e preencher no sistema XYZ",
+                            "pontos":0,
+                            "complemento":"Está incompleto, pois o dado C não foi questionado"
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"Pedir os dados A, B, C e D e preencher no sistema XYZ",
+                            "pontos":0,
+                            "complemento":"O dado D, não necessário, foi questionado, sendo portanto incorreto."
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"Preencher somente os dados da cliente, e não os do titular da apólice.",
+                            "pontos":0,
+                            "complemento":"Os dados do titular da apólice são imprescidíveis ao abrir o sinistro."
+                        },
+                        {
+                            "assertividade":"ideal",
+                            "conteudo": "Pedir os dados A, B e C e preencher no sistema XYZ",
+                            "pontos":500,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        }
+                    ]
+                },
+                {
+                    "tipo":"cumprimento-do-fluxo-de-atendimento",
+                    "enunciado":"Qual a alternativa mais correta quanto à rotina?",
+                    "alternativas": [
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"Se a ligação veio na fila X, devo me recusar a abrir o sinistro.",
+                            "pontos":0,
+                            "complemento":"Incorreto, pois devemos seguir com a abertura do sinistro mesmo se a ligação vier da fila X."
+                        },
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"O tipo de público Y pode realizar a solicitação A.",
+                            "pontos":500,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"Não devo informar o número B para a cliente.",
+                            "pontos":0,
+                            "complemento":"Incorreto, pois o número B deve ser sempre informado para os clientes em linha."
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"O prazo correto para tratativa é X dias.",
+                            "pontos":0,
+                            "complemento":"Incorreto, pois o prazo correto é Y dias."
+                        }
+                    ]
+                },
+                {
+                    "tipo":"presenca-continua",
+                    "enunciado":"Para retornar após permanecer em silêncio, qual a frase mais adequada?",
+                    "alternativas": [
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'A abertura foi concluída, o prazo é de X dias úteis.'",
+                            "pontos":0,
+                            "complemento":"Incorreto, pois o retorno da pausa foi realizado de forma abrupta e sem cuidado."
+                        },
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"'Lourdes, obrigado por aguardar! Consegui finalizar a abertura para a senhora, vou te passar agora algumas informações, tudo bem?'",
+                            "pontos":300,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Lourdes, consegui finalizar a abertura para a senhora, vou te passar agora algumas informações, tudo bem?'",
+                            "pontos":150,
+                            "complemento":"É uma resposta aceitável, porém, é essencial agradecer à cliente por ter aguardado."
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Senhora Lourdes, peço desculpas pela demora! Concluí a abertura do sinistro, o prazo é de Y dias úteis.'",
+                            "pontos":150,
+                            "complemento":"É uma resposta aceitável, porém, não é realizado o agradecimento para a cliente e reforço negativo é realizado de forma desnecessária (se desculpar pela demora não é necessário)."
+                        }
+                    ]
+                },
+                {
+                    "tipo":"personalizacao",
+                    "enunciado":"Qual frase pode ser utilizada para evitar falas genéricas?",
+                    "alternativas": [
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"A senhora ficou com dúvidas sobre o prazo?",
+                            "pontos":150,
+                            "complemento":"É uma resposta aceitável, porém, devemos sempre lembrar de chamar os clientes por seus nomes."
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'Peço que aguarde que já retorno, um momento.'",
+                            "pontos":0,
+                            "complemento":"Não é correto, pois a cliente não é chamada pelo nome e frase é genérica."
+                        },
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"'Lourdes, poderia me informar o dado C novamente? A ligação falhou um pouco'.",
+                            "pontos":300,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"A senhora poderia me informar o dado C? Não consegui ouvir a senhora.",
+                            "pontos":150,
+                            "complemento":"É uma resposta aceitável, porém, devemos sempre lembrar de chamar os clientes por seus nomes."
+                        }
+                    ]
+                },
+                {
+                    "tipo":"encantamento",
+                    "enunciado":"A cliente demonstrou estar confusa com algumas orientações. Qual a frase mais adequada para prosseguir?",
+                    "alternativas": [
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"'Lourdes, não tem problema, fique tranquila! Vou explicar melhor para a senhora, tudo bem?'",
+                            "pontos":300,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"Lourdes, vou explicar novamente, tudo bem?",
+                            "pontos":150,
+                            "complemento":"'É uma resposta razoável, porém, seria possível utilizar uma abordagem com maior peso emocional.'"
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'Já expliquei no início para a senhora, dona Lourdes, pode nos acionar novamente se necessário em outro momento.'",
+                            "pontos":0,
+                            "complemento":"É uma resposta inadequada, pois não oferece esclarecimento imediato e negligencia a sensação de incerteza da cliente."
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Lourdes, vou explicar mais uma vez nesse caso.'",
+                            "pontos":0,
+                            "complemento":"'É uma resposta aceitável, porém, seria possível utilizar uma abordagem com maior peso emocional.'"
+                        }
+                    ]
+                },
+                {
+                    "tipo":"atencao-a-solicitacao-do-cliente",
+                    "enunciado":"Dentre as alternativas, qual demonstra atenção à situação da cliente?",
+                    "alternativas":[
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'Lourdes, poderia informar os dados do seu marido novamente? Acabei me esquecendo de anotá-los.'",
+                            "pontos":0,
+                            "complemento":"É incorreto, pois demonstra falta de atenção e cuidado."
+                        },
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"Lourdes, fique tranquila que já estou finalizando a abertura do sinistro para a senhora, tudo bem?",
+                            "pontos":1000,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"Lourdes, é referente à abertura de sinistro? Estou terminando de anotar as informações.",
+                            "pontos":500,
+                            "complemento":"'É uma resposta razoável, porém, seria possível utilizar uma abordagem com maior segurança e evitando perguntar qual a solicitação após já ter sido informado.'"
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"Lourdes, finalizei a abertura para a senhora.",
+                            "pontos":500,
+                            "complemento":"'É uma ótima resposta, porém, seria possível utilizar uma abordagem com maior peso emocional e cuidado.'"
+                        }
+                    ]
+                },
+                {
+                    "tipo":"encantamento",
+                    "enunciado":"A cliente Lourdes elogiou seu atendimento e agradeceu por seu apoio. Como responder adequadamente?",
+                    "alternativas":[
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Ótimo! Lourdes, ajudo a senhora com algo mais?'",
+                            "pontos":150,
+                            "complemento":"'É uma resposta aceitável, porém, a oportunidade de sustentar a conexão emocional de forma mais aprofundada foi perdida.'"
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Excelente! Ajudo a senhora com algo mais?'",
+                            "pontos":150,
+                            "complemento":"'É uma resposta aceitável, porém, a oportunidade de sustentar a conexão emocional de forma mais aprofundada foi perdida.'"
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'Ajudo a senhora com algo mais?'",
+                            "pontos":0,
+                            "complemento":"É incorreto, pois ignora o sentimento da cliente, não sustentando o Encantamento até o final."
+                        },
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"'Lourdes, fico muito feliz em ter te ajudado, muito obrigado pelo elogio!'",
+                            "pontos":300,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        }
+                    ]
+                },
+                {
+                    "tipo":"confirmacao-de-entendimento",
+                    "enunciado":"Após finalizar as explicações e a tratativa, como garantir que não ficaram dúvidas no processo?",
+                    "alternativas":[
+                        {
+                            "assertividade":"ideal",
+                            "conteudo":"'Lourdes, ficou alguma dúvida sobre o que conversamos? Posso ajudar a senhora em algo mais?'",
+                            "pontos":1500,
+                            "complemento":"É a melhor resposta, parabéns!"
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Lourdes, que bom que conseguimos terminar! Ajudo em algo mais?'",
+                            "pontos":750,
+                            "complemento":"É uma excelente resposta, porém, não questiona se há ainda alguma dúvida que possa ter ficado pendente."
+                        },
+                        {
+                            "assertividade":"toleravel",
+                            "conteudo":"'Lourdes, ajudo a senhora em algo mais?'",
+                            "pontos":750,
+                            "complemento":"É uma excelente resposta, porém, não questiona se há ainda alguma dúvida que possa ter ficado pendente."
+                        },
+                        {
+                            "assertividade":"incorreto",
+                            "conteudo":"'Agradeço pelo contato, tenha uma ótima tarde!'",
+                            "pontos":0,
+                            "complemento":"É uma resposta inadequada, pois não questiona se há alguma dúvida, demonstrando pressa em encerrar o atendimento."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
