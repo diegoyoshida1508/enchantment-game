@@ -2,30 +2,27 @@
 <html>
 
 <head>
-    <title>Nome do Jogo</title>
-    <link rel="stylesheet" type="text/css" href="../styles/tema.css" />
+    <title>Enchantment Game</title>
+    <link rel="stylesheet" type="text/css" href="../styles/cenarios.css" />
 </head>
 
 <body>
-    <main>
-        <div id="personagem">
-            <div class="cabeca">
-                <div class="rosto">
-                    <div class="olho"></div>
-                    <div class="olho"></div>
-                    <div class="nariz"></div>
-                </div>
-            </div>
-            <div class="corpo"></div>
+    <button class="tecla-som">O</button>
+    <button class="tecla-e">E</button>
+    <div class="personagem"></div>
+    <div class="modal">
+        <div class="modal-conteudo">
+            <h1> Perguntas </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi iste aspernatur, optio quisquam
+                quod voluptates nemo tempora eveniet nostrum. Tempora est repudiandae quas ullam cumque mollitia
+                excepturi nisi deserunt. </p>
         </div>
-    </main>
-    <button class="mute">X</button>
+    </div>
     <footer></footer>
     <script src="../scripts/cenario1.js"></script>
     <audio loop id="tema">
         <source src="../assets/audios/tema.mp3" type="audio/mp3">
     </audio>
-    <audio src="../assets/audios/pulo.mp3" id="pular"></audio>
 </body>
 
 </html>
