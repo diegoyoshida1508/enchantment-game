@@ -1,17 +1,28 @@
-// Agrupa os três IDs em uma lista e aplica a lógica para cada um deles
 ['personagem-1', 'personagem-2', 'personagem-3'].forEach(id => {
-    const svg = document.getElementById(id);
+    const div = document.getElementById(id);
 
-    // Garante que o elemento existe na página antes de aplicar o evento
-    if (svg) {
-        svg.addEventListener('load', () => {
-            svg.pauseAnimations();
-        });
-        svg.addEventListener('mouseover', () => {
-            svg.unpauseAnimations();
-        });
-        svg.addEventListener('mouseleave', () => {
-            svg.pauseAnimations();
-        });
-    }
+    div.addEventListener('mouseover', () => {
+        tocarSelecao();
+    })
+
 });
+
+
+function tocarSelecao() {
+    const audio = document.getElementById('selecao');
+    audio.play();
+}
+
+
+function selecionarPersonagem(evento) {
+    sessionStorage.setItem('personagem', evento.target.id)
+    navigation.navigate('cenario1.html')
+}
+
+function exibirTeclaE() {
+
+}
+
+function abrirModal() {
+
+}
