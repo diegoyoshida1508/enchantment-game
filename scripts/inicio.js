@@ -1,4 +1,4 @@
-['personagem-1', 'personagem-2', 'personagem-3'].forEach(id => {
+['personagem-A', 'personagem-B', 'personagem-C'].forEach(id => {
     const div = document.getElementById(id);
 
     div.addEventListener('mouseover', () => {
@@ -16,6 +16,7 @@ function tocarSelecao() {
 
 function selecionarPersonagem(evento) {
     sessionStorage.setItem('personagem', evento.target.id)
+    sessionStorage.setItem('turma', 'BARE')
     navigation.navigate('cenario1.html')
 }
 

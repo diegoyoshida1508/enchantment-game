@@ -12,10 +12,16 @@
     <div class="personagem"></div>
     <div class="modal">
         <div class="modal-conteudo">
-            <h1> Perguntas </h1>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi iste aspernatur, optio quisquam
-                quod voluptates nemo tempora eveniet nostrum. Tempora est repudiandae quas ullam cumque mollitia
-                excepturi nisi deserunt. </p>
+            <div class="quiz-status">
+                <p id="progresso-quiz"></p>
+                <p id="vidas-quiz"></p>
+                <p id="pontuacao-quiz"></p>
+            </div>
+            <h1 id="enunciado-pergunta">Carregando pergunta...</h1>
+            <div id="alternativas-quiz"></div>
+            <p id="feedback-quiz" role="status"></p>
+            <button id="proxima-pergunta" class="botao-quiz" hidden>Próxima pergunta</button>
+            <button id="reiniciar-quiz" class="botao-quiz" hidden>Jogar novamente</button>
         </div>
     </div>
     <footer></footer>
